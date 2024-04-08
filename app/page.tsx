@@ -1,20 +1,21 @@
 import Makers from "@/components/Makers";
 import Projects from "@/components/Projects";
-import { Heading, Text, Box } from "@chakra-ui/react";
+import { Heading, Text, Box, Container, Stack } from "@chakra-ui/react";
 
 export default function Home() {
   return (
-    <>
-      <Heading>Magma Makers</Heading>
-      <Text>Forging the future one 🩸 at a time</Text>
-      <Box>
-        <Heading>Makers</Heading>
+    <Container p="8" bg="brand.bg" color="brand.main" maxW="container.lg">
+      <Stack direction="column" spacing="12">
+        <Heading fontSize="6em" color="brand.main">
+          Magma Makers
+        </Heading>
+        <Text fontSize="1.5em" mb="8">
+          Forging the future one 🩸 at a time.
+        </Text>
         <Makers></Makers>
-      </Box>
-      <Box>
-        <Heading>Projects</Heading>
+        <Heading fontSize="4em">Makes</Heading>
         <Projects></Projects>
-      </Box>
-    </>
+      </Stack>
+    </Container>
   );
 }
