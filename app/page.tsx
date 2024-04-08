@@ -13,7 +13,7 @@ export default function Home() {
           Forging the future one 🩸 at a time.
         </Text>
         <Makers></Makers>
-        <Heading fontSize="4em">Makes</Heading>
+        <Heading fontSize="4em">🩸 makes </Heading>
         <Projects></Projects>
       </Stack>
     </Container>
