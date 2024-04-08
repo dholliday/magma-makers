@@ -22,7 +22,7 @@ Send a DM to [@davehollidayt](https://twitter.com/daveholliday) and ask to be ad
 
 ### Super Easy Way
 
-Send a DM to [@davehollidayt](https://twitter.com/daveholliday) and ask to be added!
+Send a DM to [@daveholliday](https://twitter.com/daveholliday) and ask to be added!
 
 ### Easy Way
 
