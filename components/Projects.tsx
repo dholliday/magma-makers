@@ -1,3 +1,4 @@
+//@ts-nocheck
 "use client";
 import NextLink from "next/link";
 import {
@@ -25,7 +26,9 @@ export default async function Makers() {
             key={project.name}
             direction={{ base: "column", sm: "row" }}
             overflow="hidden"
-            variant="outline"
+            variant="filled"
+            boxShadow="2xl"
+            bg="#d5d5d5"
           >
             <Image
               objectFit="cover"
@@ -37,11 +40,27 @@ export default async function Makers() {
             <Stack>
               <CardBody>
                 <Link as={NextLink} href={project.url} isExternal>
-                  <Heading size="md">{project.name}</Heading>
+                  <Heading size="lg">{project.name}</Heading>
                 </Link>
 
                 <Text py="2">{project.shortDescription}</Text>
-                <Text py="2">{project.longDescription}</Text>
+                <Text py="2" mb="4">
+                  {project.longDescription}
+                </Text>
+                <Link
+                  as={NextLink}
+                  href={`https://twitter.com/${
+                    makers[project.makerId][project.makerId].xHandle
+                  }`}
+                  isExternal
+                >
+                  <Avatar
+                    size="lg"
+                    name={makers[project.makerId][project.makerId].name}
+                    src={makers[project.makerId][project.makerId].pfp}
+                    boxShadow="2xl"
+                  />
+                </Link>
               </CardBody>
 
               <CardFooter>

@@ -1,3 +1,4 @@
+//@ts-nocheck
 "use client";
 import NextLink from "next/link";
 import {
@@ -15,14 +16,20 @@ export default async function Makers() {
   return makers ? (
     <Stack direction="row" spacing="1em">
       {makers.map((maker) => {
+        const id = Object.keys(maker);
         return (
-          <Box key={maker.id}>
+          <Box key={id}>
             <Link
               as={NextLink}
-              href={`https://twitter.com/${maker.xHandle}`}
+              href={`https://twitter.com/${maker[id].xHandle}`}
               isExternal
             >
-              <Avatar size="2xl" name={maker.name} src={maker.pfp} />
+              <Avatar
+                size="xl"
+                name={maker[id].name}
+                src={maker[id].pfp}
+                boxShadow="2xl"
+              />
             </Link>
           </Box>
         );

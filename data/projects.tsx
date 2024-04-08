@@ -3,9 +3,9 @@ export const projects = [
     makerId: "0",
     name: "Magmify",
     logoUri: "https://magmify.xyz/magmify_logo.png",
-    shortDescription: "Magmify is Magmas premier crowdfunding experience.",
+    shortDescription: "Magmify is Magma's premier crowdfunding experience.",
     longDescription:
-      "Magmify is Magmas premier crowdfunding experience. Magmify is Magmas premier crowdfunding experience. Magmify is Magmas premier crowdfunding experience.",
+      'Democratize and simplify investment opportunities, making it possible for anyone, anywhere, to participate in the funding of projects in any-chain at any-time. L3 crowdfunding experience on top of the most advanced liquid L2 layer in existence. Multi-chain liquid movements of funds are all possible here...and only here. Community is at the core of everything we do. Expect rewards, airdrops and "random acts of kindness" to land on all projects in the ecosystem.',
     url: "https://magmify.xyz",
   },
   {
@@ -31,8 +31,7 @@ export const projects = [
   {
     makerId: "1",
     name: "Magma Trader",
-    logoUri:
-      "https://pbs.twimg.com/community_banner_img/1774671357630205952/7S3NMtMe?format=jpg&name=medium",
+    logoUri: "",
     shortDescription: "NFT Marketplace",
     longDescription: "NFT Marketplace",
     url: "https://pondscan.github.io/MagmaTrader/index.html",
