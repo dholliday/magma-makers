@@ -39,4 +39,14 @@ export const makers = [
       city: "Somewhere",
     },
   },
+  {
+    "4": {
+      xHandle: "@marathonbill",
+      pfp: "https://pbs.twimg.com/profile_images/1758328395698683904/gqe6hces_400x400.jpg",
+      url: "https://twitter.com/marathonbill",
+      name: "marathonbill.eth",
+      countryIso3166: "USA",
+      city: "Somewhere",
+    },
+  },
 ] as const;

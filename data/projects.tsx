@@ -36,4 +36,13 @@ export const projects = [
     longDescription: "NFT Marketplace",
     url: "https://pondscan.github.io/MagmaTrader/index.html",
   },
+  {
+    makerId: "4",
+    name: "Merch 2.0",
+    logoUri:
+      "https://pbs.twimg.com/media/GKHaDWhbEAAzzDU?format=jpg&name=small",
+    shortDescription: "The future of merch. It's merch 2.0",
+    longDescription: "",
+    url: "https://twitter.com/marathonbill",
+  },
 ] as const;
