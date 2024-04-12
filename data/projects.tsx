@@ -19,17 +19,6 @@ export const projects = [
   },
   {
     makerId: "1",
-    name: "△ Finance",
-    logoUri:
-      "https://pbs.twimg.com/community_banner_img/1774671357630205952/7S3NMtMe?format=jpg&name=medium",
-    shortDescription:
-      "A bold, transparent crypto platform embracing a Ponzi scheme model for clear, peer-to-peer trading without liquidity risks.",
-    longDescription:
-      "A bold, transparent crypto platform embracing a Ponzi scheme model for clear, peer-to-peer trading without liquidity risks.",
-    url: "https://basescan.org/address/0xc8425fa62da8d30a34fe30f2f3d508662d0c430b#code",
-  },
-  {
-    makerId: "1",
     name: "Magma Trader",
     logoUri: "",
     shortDescription: "NFT Marketplace",
