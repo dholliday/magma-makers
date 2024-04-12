@@ -59,4 +59,13 @@ export const makers = [
       city: "Somewhere",
     },
   },
+  {
+    "6": {
+      xHandle: "@defi_is_theway",
+      pfp: "https://pbs.twimg.com/profile_images/1732427423277334528/KeU0ptKq_400x400.jpg"
+      url: "",
+      name: "Defi TheWay",
+      countryIso3166: "SGP",
+      city: "Somewhere",
+  },
 ] as const;
