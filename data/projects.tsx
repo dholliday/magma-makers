@@ -12,7 +12,7 @@ export const projects = [
     makerId: "1",
     name: "Mint A Fren",
     logoUri:
-      "https://pbs.twimg.com/profile_images/1759144039902056448/UPTKLZnI_400x400.jpg",
+      "https://pbs.twimg.com/media/GJonQVZawAA0kJB?format=jpg&name=medium",
     shortDescription: "🤗 Mint a fren and name them! 🤗",
     longDescription: "They're cute little friends that live in your wallet!",
     url: "https://pondscan.github.io/Mint-A-Fren",

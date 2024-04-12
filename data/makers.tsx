@@ -12,7 +12,7 @@ export const makers = [
   {
     "1": {
       xHandle: "@pondscan",
-      pfp: "https://pbs.twimg.com/profile_images/1759144039902056448/UPTKLZnI_400x400.jpg",
+      pfp: "https://pbs.twimg.com/profile_images/1778459580168855552/ahHoG0Ch_400x400.jpg",
       url: "https://github.com/pondscan",
       name: "pondscan",
       countryIso3166: "USA",
