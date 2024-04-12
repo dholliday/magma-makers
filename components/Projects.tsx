@@ -50,14 +50,14 @@ export default async function Makers() {
                 <Link
                   as={NextLink}
                   href={`https://twitter.com/${
-                    makers[project.makerId][project.makerId].xHandle
+                    makers[project.makerId][project.makerId]?.xHandle
                   }`}
                   isExternal
                 >
                   <Avatar
                     size="lg"
-                    name={makers[project.makerId][project.makerId].name}
-                    src={makers[project.makerId][project.makerId].pfp}
+                    name={makers[project.makerId][project.makerId]?.name}
+                    src={makers[project.makerId][project.makerId]?.pfp}
                     boxShadow="2xl"
                   />
                 </Link>
