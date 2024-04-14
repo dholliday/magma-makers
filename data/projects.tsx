@@ -34,4 +34,13 @@ export const projects = [
     longDescription: "",
     url: "https://twitter.com/marathonbill",
   },
+  {
+    makerId: "7",
+    name: "Liquid Layer Lounge",
+    logoUri: "https://qualitapps.com/wp-content/uploads/2023/04/903.png",
+    shortDescription: "Liquid Layer Lounge",
+    longDescription:
+      "Magma is a UX-first SuperChain designed for a secured hyperconnected future. Learn More at Magma.Foundation",
+    url: "https://www.spatial.io/s/Liquid-Layer-Lounge-660b1218cf44d806eef6bbe6?share=3338737281292153714",
+  },
 ] as const;

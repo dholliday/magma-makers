@@ -69,4 +69,14 @@ export const makers = [
       city: "Somewhere",
     },
   },
+  {
+    "7": {
+      xHandle: "@MetaMike3D",
+      pfp: "https://pbs.twimg.com/profile_images/1774279692604039168/YLuo_C1H_400x400.jpg",
+      url: "",
+      name: "Mike",
+      countryIso3166: "USA",
+      city: "Somewhere",
+    },
+  },
 ] as const;
