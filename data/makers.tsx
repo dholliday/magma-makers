@@ -79,4 +79,14 @@ export const makers = [
       city: "Somewhere",
     },
   },
+  {
+    "8": {
+      xHandle: "@chopper__dad",
+      pfp: "https://pbs.twimg.com/profile_images/1768483576318992384/KZW-7_aa_400x400.jpg",
+      url: "",
+      name: "Chopper",
+      countryIso3166: "CAN",
+      city: "Somewhere",
+    },
+  },
 ] as const;

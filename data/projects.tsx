@@ -43,4 +43,13 @@ export const projects = [
       "Magma is a UX-first SuperChain designed for a secured hyperconnected future. Learn More at Magma.Foundation",
     url: "https://www.spatial.io/s/Liquid-Layer-Lounge-660b1218cf44d806eef6bbe6?share=3338737281292153714",
   },
+  {
+    makerId: "8",
+    name: "MagmaPhunks Auction House",
+    logoUri: "/img/projects/magmaphunks_auctionhouse.png",
+    shortDescription:
+      "CryptoPhunks (Phunks) is a Non-Fungible Token (NFT) collection on the Ethereum blockchain. Phunks are free-use, public domain Art, run entirely by a decentralized community of artists and builders. An important part of NFT history, Phunks raise fundamental questions and discussions around ownership, copyright, conceptual art, CC0, and blockchain provenance.",
+    longDescription: "",
+    url: "https://magmaphunks.eth.link/",
+  },
 ] as const;
