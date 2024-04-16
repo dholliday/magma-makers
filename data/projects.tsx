@@ -27,11 +27,11 @@ export const projects = [
   },
   {
     makerId: "4",
-    name: "Merch 2.0",
-    logoUri:
-      "https://pbs.twimg.com/media/GKHaDWhbEAAzzDU?format=jpg&name=small",
-    shortDescription: "The future of merch. It's merch 2.0",
-    longDescription: "",
+    name: "Marathon Merch",
+    logoUri: "/img/projects/marathon_merch.jpg",
+    shortDescription: "Merch 2.0 by marathonbill.",
+    longDescription:
+      "Merging the idea of art, fashion, inner-standings of memetic magick, gamification within blockchain technology, and bringing it together to amplify the greater message of Crypto 2.0. Where the user's are king. Let the fashion I create be the talisman that resonates to your experience. And may it remind you of love, truth, and passion.",
     url: "https://twitter.com/marathonbill",
   },
   {
