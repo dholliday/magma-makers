@@ -52,4 +52,12 @@ export const projects = [
     longDescription: "",
     url: "https://magmaphunks.eth.link/",
   },
+  {
+    makerId: "2",
+    name: "LAVA Faucet",
+    logoUri: "/img/projects/lava_faucet.png",
+    shortDescription: "It's the LAVA Testnet Magma Faucet",
+    longDescription: "",
+    url: "https://www.lavafaucet.xyz/",
+  },
 ] as const;
