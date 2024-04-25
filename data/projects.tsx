@@ -60,4 +60,13 @@ export const projects = [
     longDescription: "",
     url: "https://www.lavafaucet.xyz/",
   },
+  {
+    makerId: "9",
+    name: "MagmaMfers",
+    logoUri: "https://magmamfers.art/dystomfer1.png",
+    shortDescription:
+      "Its the year 2669 and some mfers survived a volcano armageddon...",
+    longDescription: "MagmaMfers are generated from modified drawings inspired by Sartoshi's Mfers and Deka's Dystopunks. This project is under CC0 domain, feel free to use MagmaMfers anyway you want! @~",
+    url: "https://magmamfers.art",
+  },
 ] as const;
