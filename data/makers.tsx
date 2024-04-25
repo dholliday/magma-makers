@@ -89,4 +89,14 @@ export const makers = [
       city: "Somewhere",
     },
   },
+  {
+    "9": {
+      xHandle: "@xsficherax",
+      pfp: "https://pbs.twimg.com/profile_images/1775634469271035904/cOfpJ8So_400x400.jpg",
+      url: "",
+      name: "Sebastian Fichera",
+      countryIso3166: "MEX",
+      city: "Somewhere",
+    },
+  },
 ] as const;
